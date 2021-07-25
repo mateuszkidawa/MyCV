@@ -1,11 +1,14 @@
-/*@import url('https://fonts.googleapis.com/css?family=Raleway');*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 body {
   margin: 0;
+  font-size: 16px;
+  line-height: 1.8em;
+  font-family: 'Raleway', sans-serif;
 }
 
 article {
-  padding:0 1em;
+  padding: 0 1em;
 }
 
 section{
@@ -18,21 +21,27 @@ header, main, footer {
 }
 
 header {
+  color: white;
   padding: 2em;
   text-align: center;
-  /*background-image: url('sciezka');*/
+  background-image: url('img/bg.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 header section {
   margin: 0 auto;
+  max-width: 640px;
 }
 
 header img {
-
+  width: 150px;
+  border-radius: 50%;
 }
 
 h1 {
   margin: 1em 0;
+  text-transform: uppercase;
 }
 
 main {
