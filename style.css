@@ -44,17 +44,44 @@ h1 {
   text-transform: uppercase;
 }
 
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+main section:not(:last-child) {
+  border-bottom: rgba(23, 143, 39, 0.096);
+  border-bottom-style:groove;
+  border-radius: 1%;
+}
+
 main {
   max-width: 1140px;
 }
 
 .course {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .course .title {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #509e98;
 }
 
-.course .descrition {
+.course .description {
+  flex: 0 0 66.6%;
+  max-width: 66.6%;
+}
+
+.course .description p {
+  padding-left: 1em;
+}
+
+.course .title {
+  flex: 0 0 33.3%;
+  max-width: 33%;
 }
 
 .school span {
