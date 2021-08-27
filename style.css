@@ -111,3 +111,17 @@ footer {
 ul {
   list-style-type: "▶";
 }
+
+footer {
+  text-align: right;
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  opacity: 0.7;
+}
