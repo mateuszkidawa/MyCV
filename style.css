@@ -91,3 +91,19 @@ main {
 footer {
  padding: 1em;
 }
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills .column {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+
+
+ul {
+  list-style-type: "▶";
+}
