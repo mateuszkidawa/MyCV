@@ -86,6 +86,12 @@ main {
 
 .school span {
   color: #A7B8BF;
+  text-decoration: underline;
+}
+
+.school {
+  text-transform: capitalize;
+  font-weight: bold;
 }
 
 footer {
@@ -101,8 +107,6 @@ footer {
   flex: 0 0 50%;
   max-width: 50%;
 }
-
-
 
 ul {
   list-style-type: "▶";
